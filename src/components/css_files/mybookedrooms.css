@@ -1,0 +1,47 @@
+.my-boookings {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.booking-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.booking-list li {
+  margin-bottom: 20px;
+}
+
+.booking-list li a {
+  display: block;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+
+.mybooklinks{
+    text-align: center;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 768px) {
+  .booking-list {
+    max-width: 400px;
+  }
+
+  .my-boookings {
+    font-size: 20px;
+  }
+
+  .booking-list li a {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

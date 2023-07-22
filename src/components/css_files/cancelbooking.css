@@ -1,0 +1,67 @@
+.cancel-book {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cancel-booking-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.cancel-booking-form .form-group {
+  margin-bottom: 20px;
+}
+
+.cancel-booking-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.cancel-booking-form input[type="text"],
+.cancel-booking-form input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.cancel-booking-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 768px) {
+  .cancel-booking-form {
+    padding: 20px;
+  }
+
+  .cancel-booking-form h2 {
+    font-size: 20px;
+  }
+
+  .cancel-booking-form input[type="text"],
+  .cancel-booking-form input[type="email"] {
+    font-size: 14px;
+  }
+
+  .cancel-booking-form button[type="submit"] {
+    font-size: 16px;
+  }
+}

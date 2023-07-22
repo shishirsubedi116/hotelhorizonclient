@@ -1,0 +1,52 @@
+.incomplete-bookings{
+    padding: auto 5px;
+}
+.incomplete-bookings h2 {
+  margin-bottom: 20px;
+}
+
+.incomplete-bookings table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.incomplete-bookings th,
+.incomplete-bookings td {
+  padding: 4px;
+  text-align: left;
+  /* border-bottom: 1px solid #ddd; */
+  border: 1px solid #d4bfbf;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .incomplete-bookings table {
+    font-size: 14px;
+  }
+
+  .incomplete-bookings th,
+  .incomplete-bookings td {
+    padding: 3px;
+  
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* body {
+    padding: 10px;
+  } */
+
+  .incomplete-bookings h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .incomplete-bookings table {
+    font-size: 12px;
+  }
+
+  .incomplete-bookings th,
+  .incomplete-bookings td {
+    padding: 4px;
+  }
+}

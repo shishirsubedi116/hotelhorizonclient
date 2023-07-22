@@ -1,0 +1,50 @@
+.main-admin {
+  margin: 30px auto;
+}
+
+.admin-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-admin h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.main-admin ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-admin li {
+  margin: 10px 10px;
+}
+
+.admin-links {
+  display: block;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 768px) {
+  .admin-ul {
+    flex-direction: column;
+  }
+  .main-admin h2 {
+    font-size: 20px;
+  }
+
+  .admin-links {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
